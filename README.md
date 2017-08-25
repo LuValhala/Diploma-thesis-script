@@ -6,8 +6,8 @@ The continuosly expanding(dynamic) window is trying to capture the true nature o
 For better explanation see Pike, R., J., Acevedo, W., 1989. Topographic grain automated from Digital elevation models. In: Proceedings 9th International Symposium on Computer Assisted Cartography. s. 128–137.
 
 PYTHON IMPLEMENTATION:
-Working environment is ArcGIS 10.2.. Imported layer is transformed into 2D array, then calculations are being done to produce the values of various configurations of chosen calculation. After that comparision chooses the correct value and saves it into zero array, which is then exported as output layer.
-Script is published the way it was made when publishing the thesis. NOTE that now i would redo it completely as it absolutely inefficient in the amount of RAM it needs to use. Problem was that i didnt know about few functions in the beginning of the creative process.
+Working environment is ArcGIS 10.2.. Imported layer is transformed into 2D array, then values of various configurations of chosen calculation are stored in memory**** . After that comparision chooses the correct value and saves it into zero array, which is then exported as output layer.
+Script is published the way it was created when publishing the thesis. NOTE that right now (8/2017) i would make it completely differently as it absolutely inefficient in the amount of RAM it needs to use****. Problem was that i didnt know about few functions in the beginning of the creative process. [ NbrCircle(x,y) returns the value of calculated characteristic in given radius - can be used to save all the RAM and also speed up the process a bit ]
 
 ABSTRACT OF THE THESIS:
 VALČO, Ľuboš: Data preparation for the physically based morphostructural segmentation of the Western Carpathians. [Master thesis]. Comenius University in Bratislava. Faculty of Natural Sciences. Department of Physical Geography and Geoecology. Tutor: prof. RNDr. Jozef Minár, CSc. Bratislava: Faculty of Natural Sciences CU, 2017. 63 pp.
